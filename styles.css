@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Work+Sans:ital,wght@0,400;1,600&display=swap');
+
+:root {
+  --primary: rgba(192, 192, 192, 0.603);
+  --background: #93c5fd;
+  --text: #f9fafb;
+}
+
+body {
+  background-image: url('http://www.artofadambetts.com/images/postgraphics/downloads/desktopbgs/LeatherHoles-Plain.png');
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.top-heading {
+  color: var(--text);
+  text-align: center;
+  margin-top: 0;
+  padding: 1rem;
+}
+
+#text-input {
+  text-align: center;
+  color: var(--text);
+  font-weight: bolder;
+}
+
+textarea {
+  width: 60%;
+  height: 17vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  margin: auto;
+}
+
+#btn-translate {
+  max-width: 600px;
+  margin: 1.9rem;
+  background-color: #2e333b;
+  color: white;
+  font-size: large;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+#dialog {
+  font-size: x-large;
+  color: var(--text);
+}
+
+#output {
+  border: 1px solid;
+  width: 60%;
+  height: 17vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--primary);
+  margin: auto;
+}
+
+footer {
+  color: var(--text);
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5rem;
+}
+
+footer #about-text {
+  font-size: x-large;
+  margin: auto;
+  text-align: center;
+  width: 800px;
+}
